@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Deno",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": "deno",
+            "outputCapture": "std",
+            "runtimeArgs": ["run", "--unstable", "-A", "server.ts"]
+        }
+    ]
+}
